@@ -18,8 +18,8 @@
 <content>
 
 <?php
-require_once('http://192.168.10.86/APIconnect.php');
-$result = pizza();
+require_once('../Include/connect.php');
+$result = mysqli_query($con, 'SELECT * FROM pizzas');
 ?>
 <table cellpadding="10" cellspacing="10">
 <tr><th width="200"><h2>ID</h2></th> <th width="400"><h2>Name</h2></th> <th width="200"><h2>Price</h2></th> <th></th></tr>

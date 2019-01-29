@@ -13,7 +13,7 @@
 <div id="page">
 
 <header>
-<img src="images/icons/earth26 (1).png" width="100">
+<img src="./images/logo.jpg" width="100">
 <h1>Pakistan Pizza Delivery</h1>
 </header>
 

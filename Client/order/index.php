@@ -52,8 +52,8 @@ require_once('../include/header.html');
 </tr>
 
 <?php
-require_once('http://192.168.10.86/APIconnect.php');
-$result = pizza();
+require_once('../include/connect.php');
+$result = mysqli_query($con, 'SELECT * FROM pizzas');
 while($row = mysqli_fetch_array($result))
 {
 ?>
